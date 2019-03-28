@@ -2,7 +2,7 @@ import assert from "assert";
 import {Apis} from "../lib";
 
 var coreAsset;
-var default_api = "wss://eu.openledger.info/ws";
+var default_api = "wss://eu-west-fra.district1.io:9090";
 
 describe("Api", () => {
 

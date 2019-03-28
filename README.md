@@ -1,6 +1,6 @@
-# Bitshares websocket interface (tyslinjs-ws)
+# Tyslin websocket interface (tyslinjs-ws)
 
-Pure JavaScript Bitshares websocket library for node.js and browsers. Can be used to easily connect to and obtain data from the Bitshares blockchain via public apis or local nodes.
+Pure JavaScript Tyslin websocket library for node.js and browsers. Can be used to easily connect to and obtain data from the Tyslin blockchain via public apis or local nodes.
 
 Credit for the original implementation goes to [jcalfeee](https://github.com/jcalfee).
 
@@ -25,7 +25,7 @@ Browser bundles are provided in /build/, for testing purposes you can access thi
 <script type="text/javascript" src="https://cdn.rawgit.com/tyslin/tyslinjs-ws/build/tyslinjs-ws.js" />
 ```
 
-A variable bitshares_ws will be available in window.
+A variable tyslin_ws will be available in window.
 
 For use in a webpack/browserify context, see the example below for how to open a websocket connection to the Openledger API and subscribe to any object updates:
 
@@ -43,10 +43,10 @@ function updateListener(object) {
 The `set_subscribe_callback` callback (updateListener) will be called whenever an object on the blockchain changes or is removed. This is very powerful and can be used to listen to updates for specific accounts, assets or most anything else, as all state changes happen through object updates. Be aware though that you will receive quite a lot of data this way.
 
 # Witness node endpoints
-This is a non-exhaustive list of endpoints available from the witness_node executable, which provides the API server of Bitshares.
+This is a non-exhaustive list of endpoints available from the witness_node executable, which provides the API server of Tyslin.
 
 ## database_api
-https://github.com/bitshares/bitshares-core/blob/master/libraries/app/database_api.cpp
+https://github.com/tyslin/tyslin-core/blob/master/libraries/app/database_api.cpp
 
 __Usage examples__
 `Apis.instance().db_api().exec(method, params)`
