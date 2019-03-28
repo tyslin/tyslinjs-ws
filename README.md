@@ -22,7 +22,7 @@ Several examples are available in the /examples folder, and the tests in /test a
 Browser bundles are provided in /build/, for testing purposes you can access this from rawgit:
 
 ```
-<script type="text/javascript" src="https://cdn.rawgit.com/bitshares/tyslinjs-ws/build/tyslinjs-ws.js" />
+<script type="text/javascript" src="https://cdn.rawgit.com/tyslin/tyslinjs-ws/build/tyslinjs-ws.js" />
 ```
 
 A variable bitshares_ws will be available in window.
